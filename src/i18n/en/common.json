@@ -1,0 +1,17 @@
+{
+  "acceptInvitation": "Go to admin page",
+  "resetPassword": "Reset password",
+  "emailAlreadyExists": "Email already exists",
+  "emailNotExists": "Email not exists",
+  "roleNotExists": "Role not exists",
+  "cannotDeleteStaticRole": "Static role cannot be deleted",
+  "adminNotExists": "Admin not exists",
+  "imageNotExists": "Image not exists",
+  "invitationNotValid": "Invalid invitation id",
+  "incorrectPassword": "Incorrect password",
+  "incorrectOldPassword": "Incorrect old password",
+  "missingOldPassword": "Missing old password",
+  "adminNotFound": "Admin data not found",
+  "unexpected": "Unexpected error occured",
+  "mustBeNotEmpty": "must not empty"
+}
