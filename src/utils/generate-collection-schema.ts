@@ -14,6 +14,7 @@ export const generateCollectionSchema = <T>(modelSchema: Type<T>, collectionName
       this._id = typeof this.id === 'string' ? new Types.ObjectId(this.id) : this.id;
     }
     console.log(Colorize.success(`[${collectionName}]`), `${this.isNew ? 'insert' : 'update'}:`, this._id ?? '');
+
     next();
   });
   schema.pre('findOne', function (next) {
